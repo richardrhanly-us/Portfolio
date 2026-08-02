@@ -161,9 +161,9 @@ main {
 
 .case-study-intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr);
-  gap: 48px;
-  align-items: center;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 510px);
+  gap: 56px;
+  align-items: start;
 }
 
 .case-study-copy h3,
@@ -187,20 +187,27 @@ main {
   margin-top: 28px;
 }
 
-.video-container {
+.video-container,
+.case-study-image-container {
+  width: 100%;
+  max-width: 510px;
   margin: 0;
 }
 
-.project-video {
+.project-video,
+.case-study-image {
   display: block;
   width: 100%;
-  max-height: 480px;
+  height: 285px;
+  object-fit: cover;
+  object-position: top;
   border: 1px solid #273244;
   border-radius: 14px;
   background: #08111d;
 }
 
-.video-container figcaption {
+.video-container figcaption,
+.case-study-image-container figcaption {
   margin-top: 12px;
   color: #7f8b9b;
   font-size: 0.9rem;
@@ -262,6 +269,17 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .video-container,
+  .case-study-image-container {
+    max-width: none;
+  }
+
+  .project-video,
+  .case-study-image {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
   .case-study-details {
     grid-template-columns: 1fr;
   }
@@ -276,6 +294,15 @@ main {
     bottom: -19px;
     content: "↓";
     transform: translateX(50%);
+  }
+
+    .demo-video-section {
+    max-width: none;
+  }
+
+  .demo-video {
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 }
 
@@ -295,4 +322,44 @@ main {
   .section {
     padding: 64px 0 88px;
   }
+}
+
+.demo-video-section {
+  width: 100%;
+  max-width: 510px;
+  margin-top: 56px;
+}
+
+.demo-video-section h3 {
+  margin: 0 0 16px;
+  font-size: 1.45rem;
+}
+
+.demo-video-section p {
+  margin: 0 0 24px;
+  color: #aab5c4;
+  line-height: 1.75;
+}
+
+.demo-video {
+  display: block;
+  width: 100%;
+  height: 285px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid #273244;
+  border-radius: 14px;
+  background: #08111d;
+}
+
+.case-study-media-column {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+  max-width: 510px;
+}
+
+.case-study-media-column .demo-video-section {
+  margin-top: 0;
 }
