@@ -261,7 +261,7 @@ function App() {
 
           <article className="project-card">
             <img
-              src="/images/telemetry-normal.png"
+              src="/images/aircraft-mission-simulator.png"
               alt="Aircraft Mission Systems Simulator telemetry and command interface"
               className="project-image"
             />
