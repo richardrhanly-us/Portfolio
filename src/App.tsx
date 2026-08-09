@@ -516,6 +516,11 @@ function App() {
 
 
             </figure>
+
+
+
+
+            
             <figcaption>
               Users can upload documents, ask questions, and review supporting
               source passages.
