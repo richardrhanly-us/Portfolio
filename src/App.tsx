@@ -515,8 +515,7 @@ function App() {
             <p>
               Important information inside long documents can be difficult to
               locate quickly, especially when users do not know the exact words
-              used in the source material. Uploading sensitive documents into an LLM 
-              is not always an option.
+              used in the source material.
             </p>
           </article>
 
