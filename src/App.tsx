@@ -575,55 +575,74 @@ function App() {
         <p className="section-label">Project Case Study</p>
         <h2>FlowBoard</h2>
 
-        <div className="case-study-intro">
-          <div className="case-study-copy">
-            <h3>A full-stack task management workflow</h3>
+      <div className="case-study-intro">
+        <div className="case-study-copy">
+          <h3>Grounded answers from uploaded documents</h3>
 
-            <p>
-              FlowBoard is a task management application built around a visual
-              drag-and-drop workflow. Users can create, edit, prioritize,
-              organize, and move tasks through different stages of completion.
-            </p>
+          <p>
+            Library AI Assistant is a retrieval-augmented generation
+            application that allows users to upload PDF documents and ask
+            questions about their contents.
+          </p>
 
-            <p>
-              The frontend is built with React and TypeScript, while Supabase
-              provides authentication, PostgreSQL storage, and database-level
-              access controls.
-            </p>
+          <p>
+            The system extracts and chunks document text, generates vector
+            embeddings, stores searchable content in Chroma, retrieves
+            relevant passages, and returns an answer with supporting source
+            references.
+          </p>
 
-            <div className="case-study-links">
-              <a
-                href="https://next-play-task-board-black.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="primary-button"
-              >
-                Open Live Application
-              </a>
+          <div className="case-study-links">
+            <a
+              href="https://library-ai-assistant.streamlit.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="primary-button"
+            >
+              Open Live Application
+            </a>
 
-              <a
-                href="https://github.com/richardrhanly-us/next-play-task-board"
-                target="_blank"
-                rel="noreferrer"
-                className="secondary-button"
-              >
-                View Source Code
-              </a>
-            </div>
+            <a
+              href="https://github.com/richardrhanly-us/library-ai-assistant"
+              target="_blank"
+              rel="noreferrer"
+              className="secondary-button"
+            >
+              View Source Code
+            </a>
           </div>
+        </div>
 
-          <figure className="case-study-image-container">
+        <div className="case-study-media-column">
+          <figure className="video-container">
+            <video
+              controls
+              preload="metadata"
+              poster=""
+              className="project-video"
+            >
+              <source
+                src="/videos/libraryaiassistant-walkthrough.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support embedded video.
+            </video>
+          </figure>
+
+          <div className="demo-video-section">
+            <figcaption>
+              Users can upload documents, ask questions, and review supporting
+              source passages.
+            </figcaption>
+
             <img
-              src="/images/flowboard.png"
-              alt="FlowBoard task management dashboard"
+              src="/images/library-ai-assistant.png"
+              alt="Library AI Assistant application interface"
               className="case-study-image"
             />
-
-            <figcaption>
-              Tasks can be organized by workflow stage, priority, and due date.
-            </figcaption>
-          </figure>
+          </div>
         </div>
+      </div>
 
         <div className="case-study-details">
           <article>
