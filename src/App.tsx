@@ -502,6 +502,20 @@ function App() {
               className="case-study-image"
             />
 
+            <figure className="video-container">
+              <video
+                controls
+                preload="metadata"
+                poster=""
+                className="project-video"
+              >
+                <source src="/videos/sortview-walkthrough.mp4" type="video/mp4" />
+                Your browser does not support embedded video.
+              </video>
+
+
+
+            </figure>
             <figcaption>
               Users can upload documents, ask questions, and review supporting
               source passages.
