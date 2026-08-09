@@ -509,7 +509,7 @@ function App() {
                 poster=""
                 className="project-video"
               >
-                <source src="/videos/sortview-walkthrough.mp4" type="video/mp4" />
+                <source src="/videos/libraryaiassistant-walkthrough.mp4" type="video/mp4" />
                 Your browser does not support embedded video.
               </video>
 
