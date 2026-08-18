@@ -6,7 +6,7 @@ The site highlights selected projects in backend development, data applications,
 
 ## Live Site
 
-Deployment link coming soon.
+richardhanly.dev
 
 ## Featured Projects
 
