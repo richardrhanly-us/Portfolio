@@ -511,18 +511,7 @@ function App() {
             </video>
           </figure>
 
-          <div className="demo-video-section">
-            <figcaption>
-              Users can upload documents, ask questions, and review supporting
-              source passages.
-            </figcaption>
 
-            <img
-              src="/images/library-ai-assistant.png"
-              alt="Library AI Assistant application interface"
-              className="case-study-image"
-            />
-          </div>
         </div>
       </div>
 
@@ -610,17 +599,27 @@ function App() {
             </div>
           </div>
 
-          <figure className="case-study-image-container">
-            <img
-              src="/images/flowboard.png"
-              alt="FlowBoard task management dashboard"
-              className="case-study-image"
-            />
+          <div className="case-study-media-column">
+            <figure className="video-container">
+              <video
+                controls
+                preload="metadata"
+                poster="/images/flowboard.png"
+                className="project-video"
+              >
+                <source
+                  src="/videos/FlowBoard-walthrough.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support embedded video.
+              </video>
+            </figure>
 
             <figcaption>
-              Tasks can be organized by workflow stage, priority, and due date.
+              FlowBoard walkthrough demonstrating task creation, workflow management,
+              drag-and-drop movement, priorities, due dates, and filtering.
             </figcaption>
-          </figure>
+          </div>
         </div>
 
         <div className="case-study-details">
