@@ -35,7 +35,7 @@ function Home() {
               </a>
 
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/richardhanly/"
                 target="_blank"
                 rel="noreferrer"
               >
