@@ -41,6 +41,10 @@ function Home() {
               >
                 LinkedIn ↗
               </a>
+
+              <a href="mailto:richardrhanly@gmail.com">
+                richardrhanly@gmail.com
+              </a>
             </div>
           </div>
         </div>
