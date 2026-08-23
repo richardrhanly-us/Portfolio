@@ -8,12 +8,15 @@ function WaterUtilityGIS() {
 
         <div className="case-study-intro">
           <div className="case-study-copy">
-            <h3>Interactive GIS analysis for simulated utility infrastructure</h3>
+            <h3>
+              Interactive GIS analysis for simulated utility infrastructure
+            </h3>
 
             <p>
               The Water Utility GIS Operations Dashboard is an interactive web
-              GIS application for visualizing, filtering, inspecting, and
-              analyzing simulated water utility infrastructure.
+              GIS application for analyzing simulated water utility
+              infrastructure. The user has easy access to useful tools for
+              visualizing, filtering, and inspecting assets in their work space.
             </p>
 
             <p>
@@ -51,39 +54,8 @@ function WaterUtilityGIS() {
               className="case-study-image"
             />
 
-            <figcaption>
-              Interactive mapping, asset inspection, utility filtering, and
-              proximity analysis using simulated infrastructure data.
-            </figcaption>
+            <figcaption>The interactive map.</figcaption>
           </figure>
-        </div>
-
-        <div className="case-study-video-section">
-          <div className="case-study-video-heading">
-            <p className="section-label">Application Walkthrough</p>
-
-            <h3>Water Utility GIS Demo</h3>
-
-            <p>
-              A walkthrough of the map layers, utility filters, asset inspection,
-              spatial buffer analysis, automated testing, and continuous
-              integration workflow.
-            </p>
-          </div>
-
-          <video
-            className="case-study-video"
-            controls
-            preload="metadata"
-            poster="/images/GIS-image.png"
-          >
-            <source
-              src="/videos/GIS_Dashboard-walkthrough.mp4"
-              type="video/mp4"
-            />
-
-            Your browser does not support the video tag.
-          </video>
         </div>
 
         <div className="case-study-details">
@@ -91,10 +63,10 @@ function WaterUtilityGIS() {
             <h3>The Problem</h3>
 
             <p>
-              Utility infrastructure is inherently spatial. Operators need to
-              understand not only what assets exist, but where they are, what
-              condition they are in, and how they relate geographically to
-              other infrastructure.
+              Utility infrastructure is inherently spatial, so operators need a
+              clear view of where assets are located. They also need to
+              understand each asset&apos;s condition and how it connects to the
+              surrounding infrastructure.
             </p>
           </article>
 
@@ -133,6 +105,33 @@ function WaterUtilityGIS() {
             <span>Geometry Analysis</span>
             <span>Operational Results</span>
           </div>
+        </div>
+
+        <div className="case-study-video-section">
+          <div className="case-study-video-heading">
+            <p className="section-label">Application Walkthrough</p>
+
+            <h3>Water Utility GIS Demo</h3>
+
+            <p>
+              A walkthrough of the map layers, utility filters, asset
+              inspection, spatial buffer analysis, automated testing, and
+              continuous integration workflow.
+            </p>
+          </div>
+
+          <video
+            className="case-study-video"
+            controls
+            preload="metadata"
+            poster="/images/GIS-image.png"
+          >
+            <source
+              src="/videos/GIS_Dashboard-walkthrough.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </section>
     </main>

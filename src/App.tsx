@@ -1,5 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
+
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import SortView from "./pages/projects/SortView";
@@ -18,21 +21,33 @@ function App() {
     <>
       <Navbar />
 
+      <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/sortview" element={<SortView />} />
         <Route path="/projects/library-ai" element={<LibraryAI />} />
         <Route path="/projects/flowboard" element={<FlowBoard />} />
-        <Route path="/projects/nba-prediction" element={<NBAPrediction />} />
-        <Route path="/projects/poker-tracker" element={<PokerTracker />} />
+        <Route
+          path="/projects/nba-prediction"
+          element={<NBAPrediction />}
+        />
+        <Route
+          path="/projects/poker-tracker"
+          element={<PokerTracker />}
+        />
         <Route path="/projects/rotationlab" element={<RotationLab />} />
+
         <Route
           path="/projects/aircraft-simulator"
           element={<AircraftSimulator />}
         />
+
         <Route path="/projects/homelab" element={<Homelab />} />
+
         <Route path="/about" element={<About />} />
+
         <Route
           path="/projects/water-utility-gis"
           element={<WaterUtilityGIS />}
