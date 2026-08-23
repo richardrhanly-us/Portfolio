@@ -11,6 +11,7 @@ import AircraftSimulator from "./pages/projects/AircraftSimulator";
 import Homelab from "./pages/projects/Homelab";
 import About from "./pages/About";
 import RotationLab from "./pages/projects/RotationLab";
+import WaterUtilityGIS from "./pages/projects/WaterUtilityGIS";
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
         />
         <Route path="/projects/homelab" element={<Homelab />} />
         <Route path="/about" element={<About />} />
+        <Route
+          path="/projects/water-utility-gis"
+          element={<WaterUtilityGIS />}
+        />
       </Routes>
     </>
   );

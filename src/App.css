@@ -174,11 +174,10 @@ main {
 
 .hero {
   display: flex;
-  align-items: center;
-
-  min-height: calc(88vh - 72px);
-
-  padding: 72px 0 96px;
+  align-items: flex-start;
+  min-height: 0;
+  height: auto;
+  padding: 64px 0 32px;
 }
 
 .hero-content {
@@ -232,7 +231,7 @@ main {
    ========================================================= */
 
 .home-featured {
-  padding-top: 40px;
+  padding-top: 32px;
 }
 
 .section-heading-row {
@@ -530,7 +529,6 @@ main {
   background: #08111d;
 }
 
-
 .case-study-video-section {
   margin-top: 3rem;
 }
@@ -553,7 +551,6 @@ main {
   border-radius: 12px;
   background: #000;
 }
-
 
 /* =========================================================
    CASE STUDY DETAIL CARDS
@@ -722,7 +719,6 @@ main {
   line-height: 1.7;
 }
 
-
 /* =========================================================
    ABOUT PAGE RESPONSIVE
    ========================================================= */
@@ -754,7 +750,6 @@ main {
     font-size: 1.15rem;
   }
 }
-
 
 /* =========================================================
    TABLET RESPONSIVE STYLES
@@ -824,9 +819,11 @@ main {
   }
 
   .hero {
-    min-height: auto;
-
-    padding: 72px 0 88px;
+    display: flex;
+    align-items: flex-start;
+    min-height: 0;
+    height: auto;
+    padding: 64px 0 32px;
   }
 
   .section {

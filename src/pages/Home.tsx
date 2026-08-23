@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import "../App.css";
 
 function Home() {
@@ -70,7 +71,9 @@ function Home() {
                 automated materials handler activity for library operations.
               </p>
 
-              <p className="tech">Python · FastAPI · PostgreSQL · Streamlit</p>
+              <p className="tech">
+                Python · FastAPI · PostgreSQL · Streamlit
+              </p>
 
               <div className="project-links">
                 <Link to="/projects/sortview">View Project</Link>
@@ -80,50 +83,52 @@ function Home() {
 
           <article className="project-card">
             <img
-              src="/images/flowboard.png"
-              alt="FlowBoard task management dashboard"
+              src="/images/rotationlab.png"
+              alt="RotationLab NBA lineup and rotation analysis application"
               className="project-image"
             />
 
             <div className="project-content">
-              <h3>FlowBoard</h3>
+              <h3>RotationLab</h3>
 
               <p>
-                A full-stack task management application with authentication,
-                drag-and-drop workflows, priorities, filters, and responsive
-                design.
+                A full-stack NBA lineup and rotation analysis application for
+                comparing five-man units, evaluating replacements, and
+                exploring player combinations.
               </p>
 
-              <p className="tech">React · TypeScript · Supabase · Vite</p>
+              <p className="tech">
+                React · TypeScript · FastAPI · Python · NBA Data
+              </p>
 
               <div className="project-links">
-                <Link to="/projects/flowboard">View Project</Link>
+                <Link to="/projects/rotationlab">View Project</Link>
               </div>
             </div>
           </article>
 
           <article className="project-card">
             <img
-              src="/images/library-ai-assistant.png"
-              alt="Library AI Assistant interface"
+              src="/images/GIS-image.png"
+              alt="Water Utility GIS Operations Dashboard"
               className="project-image"
             />
 
             <div className="project-content">
-              <h3>Library AI Assistant</h3>
+              <h3>Water Utility GIS Dashboard</h3>
 
               <p>
-                A retrieval-augmented generation application that answers
-                questions from uploaded documents and returns supporting
-                sources.
+                An interactive GIS application for visualizing, filtering,
+                inspecting, and analyzing simulated water utility
+                infrastructure.
               </p>
 
               <p className="tech">
-                Python · FastAPI · Chroma · OpenAI · Streamlit
+                React · TypeScript · ArcGIS · Vitest · GitHub Actions
               </p>
 
               <div className="project-links">
-                <Link to="/projects/library-ai">View Project</Link>
+                <Link to="/projects/water-utility-gis">View Project</Link>
               </div>
             </div>
           </article>
