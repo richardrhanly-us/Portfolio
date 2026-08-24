@@ -14,16 +14,16 @@ function WaterUtilityGIS() {
 
             <p>
               The Water Utility GIS Operations Dashboard is an interactive web
-              GIS application for analyzing simulated water utility
-              infrastructure. The user has easy access to useful tools for
-              visualizing, filtering, and inspecting assets in their work space.
+              GIS application built around common utility-operations workflows.
+              It gives users a map-based workspace for locating infrastructure,
+              narrowing large asset sets, and inspecting individual features.
             </p>
 
             <p>
-              The application includes water mains, hydrants, valves, and
-              service zones, along with attribute-based filtering and spatial
-              analysis tools for identifying infrastructure near selected water
-              mains.
+              Users can move from asset filtering to feature inspection and
+              spatial analysis without leaving the map. Selecting a water main
+              also enables proximity analysis for identifying nearby hydrants
+              and valves within a configurable search distance.
             </p>
 
             <div className="case-study-links">
@@ -54,7 +54,9 @@ function WaterUtilityGIS() {
               className="case-study-image"
             />
 
-            <figcaption>The interactive map.</figcaption>
+            <figcaption>
+              Interactive utility map with asset filtering and spatial analysis.
+            </figcaption>
           </figure>
         </div>
 
@@ -65,7 +67,7 @@ function WaterUtilityGIS() {
             <p>
               Utility infrastructure is inherently spatial, so operators need a
               clear view of where assets are located. They also need to
-              understand each asset&apos;s condition and how it connects to the
+              understand each asset&apos;s condition and how it relates to
               surrounding infrastructure.
             </p>
           </article>
@@ -74,11 +76,11 @@ function WaterUtilityGIS() {
             <h3>The Solution</h3>
 
             <p>
-              I built an interactive GIS dashboard that combines map-based
-              visualization with asset filtering, feature inspection, and
-              geometry-based proximity analysis. Users can select a water main,
-              create a configurable geographic buffer, and identify nearby
-              hydrants and valves.
+              I built a map-centered workflow that lets users progressively
+              narrow the infrastructure they are working with, inspect an
+              individual asset, and then analyze its geographic context. A
+              selected water main can become the starting point for a proximity
+              search that highlights nearby hydrants and valves.
             </p>
           </article>
 
@@ -86,11 +88,12 @@ function WaterUtilityGIS() {
             <h3>What I Built</h3>
 
             <p>
-              The application uses React, TypeScript, Vite, and the ArcGIS Maps
-              SDK for JavaScript. It includes structured synthetic utility data,
-              multiple GIS layers, context-aware filters, asset detail views,
-              geodesic buffering, spatial intersection analysis, Vitest
-              automated tests, and GitHub Actions continuous integration.
+              I built the application with React, TypeScript, Vite, and the
+              ArcGIS Maps SDK for JavaScript. The interface includes
+              context-aware asset filters, detailed feature inspection,
+              configurable geodesic buffer analysis, highlighted spatial
+              results, layer controls, and a full reset workflow backed by
+              automated tests and continuous integration.
             </p>
           </article>
         </div>
@@ -99,11 +102,11 @@ function WaterUtilityGIS() {
           <h3>Application Workflow</h3>
 
           <div className="architecture-flow">
-            <span>Utility Data</span>
-            <span>ArcGIS Layers</span>
-            <span>React Interface</span>
-            <span>Geometry Analysis</span>
-            <span>Operational Results</span>
+            <span>Filter Assets</span>
+            <span>Inspect Feature</span>
+            <span>Select Water Main</span>
+            <span>Run Proximity Analysis</span>
+            <span>Review Nearby Assets</span>
           </div>
         </div>
 
@@ -114,9 +117,9 @@ function WaterUtilityGIS() {
             <h3>Water Utility GIS Demo</h3>
 
             <p>
-              A walkthrough of the map layers, utility filters, asset
-              inspection, spatial buffer analysis, automated testing, and
-              continuous integration workflow.
+              A walkthrough of asset filtering, feature inspection, water-main
+              selection, configurable buffer analysis, nearby-asset results,
+              layer controls, and the application reset workflow.
             </p>
           </div>
 
