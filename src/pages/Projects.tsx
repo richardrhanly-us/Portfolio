@@ -396,6 +396,45 @@ function Projects() {
               </div>
             </div>
           </article>
+
+          <article className="project-card">
+            <img
+              src="/images/Architecture-diagram.png"
+              alt="Cloud Reliability Lab AWS architecture diagram"
+              className="project-image"
+            />
+
+            <div className="project-content">
+              <h3>Cloud Reliability Lab</h3>
+
+              <p>
+                A Terraform-managed AWS reliability environment for automated
+                deployment, centralized monitoring, controlled failure testing,
+                and service recovery.
+              </p>
+
+              <p className="tech">
+                AWS · Terraform · Linux · nginx · systemd · CloudWatch
+              </p>
+
+              <div className="project-links">
+                <Link
+                  to="/projects/cloud-reliability-lab"
+                  className="project-detail-link"
+                >
+                  View Project →
+                </Link>
+
+                <a
+                  href="https://github.com/richardrhanly-us/cloud-reliability-lab"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
     </main>

@@ -15,6 +15,7 @@ import Homelab from "./pages/projects/Homelab";
 import About from "./pages/About";
 import RotationLab from "./pages/projects/RotationLab";
 import WaterUtilityGIS from "./pages/projects/WaterUtilityGIS";
+import CloudReliabilityLab from "./pages/projects/CloudReliabilityLab";
 
 function App() {
   return (
@@ -29,14 +30,8 @@ function App() {
         <Route path="/projects/sortview" element={<SortView />} />
         <Route path="/projects/library-ai" element={<LibraryAI />} />
         <Route path="/projects/flowboard" element={<FlowBoard />} />
-        <Route
-          path="/projects/nba-prediction"
-          element={<NBAPrediction />}
-        />
-        <Route
-          path="/projects/poker-tracker"
-          element={<PokerTracker />}
-        />
+        <Route path="/projects/nba-prediction" element={<NBAPrediction />} />
+        <Route path="/projects/poker-tracker" element={<PokerTracker />} />
         <Route path="/projects/rotationlab" element={<RotationLab />} />
 
         <Route
@@ -51,6 +46,11 @@ function App() {
         <Route
           path="/projects/water-utility-gis"
           element={<WaterUtilityGIS />}
+        />
+
+        <Route
+          path="/projects/cloud-reliability-lab"
+          element={<CloudReliabilityLab />}
         />
       </Routes>
     </>
