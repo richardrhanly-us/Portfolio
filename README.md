@@ -6,7 +6,7 @@ The portfolio showcases selected projects across full-stack development, backend
 
 ## Live Site
 
-Deployment link coming soon.
+View the portfolio at [richardhanly.dev](https://richardhanly.dev).
 
 ## Featured Projects
 
