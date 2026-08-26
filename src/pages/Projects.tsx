@@ -54,6 +54,139 @@ function Projects() {
 
           <article className="project-card">
             <img
+              src="/images/GIS-image.png"
+              alt="Water Utility GIS Operations Dashboard"
+              className="project-image"
+            />
+
+            <div className="project-content">
+              <h3>Water Utility GIS Operations Dashboard</h3>
+
+              <p>
+                An interactive GIS application for visualizing, filtering,
+                inspecting, and analyzing simulated water utility
+                infrastructure.
+              </p>
+
+              <p className="tech">
+                React · TypeScript · ArcGIS · Vitest · GitHub Actions
+              </p>
+
+              <div className="project-links">
+                <Link
+                  to="/projects/water-utility-gis"
+                  className="project-detail-link"
+                >
+                  View Project →
+                </Link>
+
+                <a
+                  href="https://water-utility-gis.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/richardrhanly-us/water-utility-gis"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <img
+              src="/images/rotationlab.png"
+              alt="RotationLab NBA lineup and rotation analysis application"
+              className="project-image"
+            />
+
+            <div className="project-content">
+              <h3>RotationLab</h3>
+
+              <p>
+                A full-stack NBA lineup and rotation analysis application for
+                comparing five-man units, evaluating replacements, and
+                supporting basketball operations decision making.
+              </p>
+
+              <p className="tech">
+                React · TypeScript · FastAPI · Python · NBA Data
+              </p>
+
+              <div className="project-links">
+                <Link
+                  to="/projects/rotationlab"
+                  className="project-detail-link"
+                >
+                  View Project →
+                </Link>
+
+                <a
+                  href="https://rotation-lab.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/richardrhanly-us/RotationLab"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <img
+              src="/images/Architecture-diagram.png"
+              alt="Cloud Reliability Lab AWS architecture diagram"
+              className="project-image"
+            />
+
+            <div className="project-content">
+              <h3>Cloud Reliability Lab</h3>
+
+              <p>
+                A Terraform-managed AWS reliability environment for automated
+                deployment, centralized monitoring, controlled failure testing,
+                and service recovery.
+              </p>
+
+              <p className="tech">
+                AWS · Terraform · Linux · nginx · systemd · CloudWatch
+              </p>
+
+              <div className="project-links">
+                <Link
+                  to="/projects/cloud-reliability-lab"
+                  className="project-detail-link"
+                >
+                  View Project →
+                </Link>
+
+                <a
+                  href="https://github.com/richardrhanly-us/cloud-reliability-lab"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article className="project-card">
+            <img
               src="/images/library-ai-assistant.png"
               alt="Library AI Assistant interface"
               className="project-image"
@@ -137,99 +270,6 @@ function Projects() {
               </div>
             </div>
           </article>
-          <article className="project-card">
-            <img
-              src="/images/rotationlab.png"
-              alt="RotationLab NBA lineup and rotation analysis application"
-              className="project-image"
-            />
-
-            <div className="project-content">
-              <h3>RotationLab</h3>
-
-              <p>
-                A full-stack NBA lineup and rotation analysis application for
-                comparing five-man units, evaluating replacements, and
-                supporting basketball operations decision making.
-              </p>
-
-              <p className="tech">
-                React · TypeScript · FastAPI · Python · NBA Data
-              </p>
-
-              <div className="project-links">
-                <Link
-                  to="/projects/rotationlab"
-                  className="project-detail-link"
-                >
-                  View Project →
-                </Link>
-
-                <a
-                  href="https://rotation-lab.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-
-                <a
-                  href="https://github.com/richardrhanly-us/RotationLab"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article className="project-card">
-            <img
-              src="/images/GIS-image.png"
-              alt="Water Utility GIS Operations Dashboard"
-              className="project-image"
-            />
-
-            <div className="project-content">
-              <h3>Water Utility GIS Operations Dashboard</h3>
-
-              <p>
-                An interactive GIS application for visualizing, filtering,
-                inspecting, and analyzing simulated water utility
-                infrastructure.
-              </p>
-
-              <p className="tech">
-                React · TypeScript · ArcGIS · Vitest · GitHub Actions
-              </p>
-
-              <div className="project-links">
-                <Link
-                  to="/projects/water-utility-gis"
-                  className="project-detail-link"
-                >
-                  View Project →
-                </Link>
-
-                <a
-                  href="https://water-utility-gis.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-
-                <a
-                  href="https://github.com/richardrhanly-us/water-utility-gis"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </article>
 
           <article className="project-card">
             <img
@@ -278,6 +318,7 @@ function Projects() {
             </div>
           </article>
 
+{/*
           <article className="project-card">
             <img
               src="/images/poker-capture.PNG"
@@ -324,7 +365,7 @@ function Projects() {
               </div>
             </div>
           </article>
-
+*/}
           <article className="project-card">
             <img
               src="/images/aircraft-mission-simulator.png"
@@ -388,45 +429,6 @@ function Projects() {
 
                 <a
                   href="https://github.com/richardrhanly-us/homelab-network-infrastructure"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article className="project-card">
-            <img
-              src="/images/Architecture-diagram.png"
-              alt="Cloud Reliability Lab AWS architecture diagram"
-              className="project-image"
-            />
-
-            <div className="project-content">
-              <h3>Cloud Reliability Lab</h3>
-
-              <p>
-                A Terraform-managed AWS reliability environment for automated
-                deployment, centralized monitoring, controlled failure testing,
-                and service recovery.
-              </p>
-
-              <p className="tech">
-                AWS · Terraform · Linux · nginx · systemd · CloudWatch
-              </p>
-
-              <div className="project-links">
-                <Link
-                  to="/projects/cloud-reliability-lab"
-                  className="project-detail-link"
-                >
-                  View Project →
-                </Link>
-
-                <a
-                  href="https://github.com/richardrhanly-us/cloud-reliability-lab"
                   target="_blank"
                   rel="noreferrer"
                 >
