@@ -12,6 +12,12 @@ function Home() {
         <div className="hero-layout">
           <div className="hero-name">
             <h1>Richard Hanly</h1>
+
+            <div className="hero-meta hero-meta-under-name">
+              <span>Central Texas</span>
+              <span>B.A.S. Software Development</span>
+              <span>Austin Community College</span>
+            </div>
           </div>
 
           <div className="hero-introduction">
@@ -26,10 +32,15 @@ function Home() {
             </p>
 
             <div className="hero-primary-links">
+              <Link to="/projects" className="primary-button">
+                View Projects
+              </Link>
+
               <a
                 href="https://github.com/richardrhanly-us"
                 target="_blank"
                 rel="noreferrer"
+                className="secondary-button"
               >
                 GitHub ↗
               </a>
@@ -38,51 +49,11 @@ function Home() {
                 href="https://www.linkedin.com/in/richardhanly/"
                 target="_blank"
                 rel="noreferrer"
+                className="secondary-button"
               >
                 LinkedIn ↗
               </a>
-
-              <a href="mailto:richardrhanly@gmail.com">
-                richardrhanly@gmail.com
-              </a>
             </div>
-          </div>
-        </div>
-        <div className="hero-ribbon">
-          <div className="hero-footer">
-            <article className="hero-highlight">
-              <span>Based In</span>
-              <p>Central Texas</p>
-            </article>
-
-            <article className="hero-highlight">
-              <span>Education</span>
-              <p>B.A.S. Software Development</p>
-              <small>Austin Community College</small>
-            </article>
-
-            <article className="hero-highlight">
-              <span>Credentials</span>
-
-              <div className="credential-list">
-                <p>Microsoft Office Specialist: Excel 2019 Associate</p>
-                <p>Occupational Skills Award — Computer Programming</p>
-              </div>
-
-              <small>Microsoft · Austin Community College</small>
-            </article>
-
-            <article className="hero-highlight">
-              <span>Recognition</span>
-              <p>Core Values Award</p>
-              <small>City of New Braunfels</small>
-            </article>
-          </div>
-
-          <div className="hero-footer-actions">
-            <Link to="/projects" className="hero-work-link">
-              Selected work ↓
-            </Link>
           </div>
         </div>
       </section>
@@ -125,26 +96,26 @@ function Home() {
 
           <article className="project-card">
             <img
-              src="/images/rotationlab.png"
-              alt="RotationLab NBA lineup and rotation analysis application"
+              src="/images/Architecture-diagram.png"
+              alt="Cloud Reliability Lab AWS architecture diagram"
               className="project-image"
             />
 
             <div className="project-content">
-              <h3>RotationLab</h3>
+              <h3>AWS Cloud Reliability Lab</h3>
 
               <p>
-                A full-stack NBA lineup and rotation analysis application for
-                comparing five-man units, evaluating replacements, and exploring
-                player combinations.
+                A Terraform-managed AWS reliability environment for automated
+                deployment, centralized monitoring, controlled failure testing,
+                and service recovery.
               </p>
 
               <p className="tech">
-                React · TypeScript · FastAPI · Python · NBA Data
+                AWS · Terraform · Linux · nginx · systemd · CloudWatch
               </p>
 
               <div className="project-links">
-                <Link to="/projects/rotationlab">View Project</Link>
+                <Link to="/projects/cloud-reliability-lab">View Project</Link>
               </div>
             </div>
           </article>

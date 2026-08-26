@@ -4,7 +4,7 @@ function CloudReliabilityLab() {
       <section className="section case-study">
         <p className="section-label">Project Case Study</p>
 
-        <h2>Cloud Reliability Lab</h2>
+        <h2>AWS Cloud Reliability Lab</h2>
 
         <div className="case-study-intro">
           <div className="case-study-copy">
