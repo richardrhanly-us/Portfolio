@@ -56,6 +56,7 @@ function About() {
           </div>
         </div>
 
+        {/* SKILLS */}
         <div className="about-skills">
           <div>
             <p className="section-label">Development</p>
@@ -64,73 +65,6 @@ function About() {
               Java
             </p>
           </div>
-          <section className="about-credentials">
-            <div className="section-heading-row">
-              <div>
-                <p className="section-label">Education & Credentials</p>
-                <h2>Education</h2>
-              </div>
-            </div>
-
-            <div className="credential-grid">
-              <article className="credential-card credential-card-featured">
-                <div className="credential-image-wrap">
-                  <img
-                    src="/images/acc-diploma.png"
-                    alt="Austin Community College Bachelor of Applied Science diploma"
-                    className="credential-image"
-                  />
-                </div>
-
-                <div className="credential-content">
-                  <p className="credential-type">Bachelor's Degree</p>
-
-                  <h3>Austin Community College</h3>
-
-                  <p className="credential-title">
-                    Bachelor of Applied Science in Software Development & Computer Science
-                  </p>
-
-                  <p className="credential-detail">
-                    Software Development · Cum Laude · 2026
-                  </p>
-
-                  <a
-                    href="/documents/acc-diploma.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-link"
-                  >
-                    View Credential →
-                  </a>
-                </div>
-              </article>
-            </div>
-
-            <div className="section-heading-row credential-subheading">
-              <div>
-                <p className="section-label">Professional Development</p>
-                <h2>Certification Path</h2>
-              </div>
-            </div>
-
-            <div className="credential-grid">
-              <article className="credential-card">
-                <div className="credential-content">
-                  <p className="credential-type">In Progress</p>
-
-                  <h3>AWS Certified Developer – Associate</h3>
-
-                  <p>
-                    Preparing for the DVA-C02 certification exam with focused study in
-                    AWS application development, deployment, security, monitoring, and
-                    cloud services.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </section>
-
 
           <div>
             <p className="section-label">Data & Backend</p>
@@ -147,6 +81,73 @@ function About() {
             </p>
           </div>
         </div>
+
+        {/* EDUCATION */}
+        <section className="education-section">
+          <div className="education-heading">
+            <p className="section-label">Education & Credentials</p>
+            <h2>Education</h2>
+          </div>
+
+          <article className="education-card">
+            <div className="education-visual">
+              <img
+                src="/images/acc-diploma.png"
+                alt="Austin Community College diploma"
+                className="education-diploma"
+              />
+            </div>
+
+            <div className="education-content">
+              <p className="credential-eyebrow">Bachelor's Degree</p>
+
+              <h3>Austin Community College</h3>
+
+              <p className="education-degree">
+                Bachelor of Applied Science in Software Development & Computer
+                Science
+              </p>
+
+              <p className="education-focus">Software Development</p>
+
+              <div className="education-meta">
+                <span>Cum Laude</span>
+                <span>2026</span>
+                <span>Austin, Texas</span>
+              </div>
+
+              <a
+                href="/documents/acc-diploma.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="text-link"
+              >
+                View Credential →
+              </a>
+            </div>
+          </article>
+
+          <div className="certification-heading">
+            <p className="section-label">Professional Development</p>
+            <h2>Certification Path</h2>
+          </div>
+
+          <article className="certification-card">
+            <div className="certification-mark">AWS</div>
+
+            <div className="certification-content">
+              <p className="credential-eyebrow">In Progress</p>
+
+              <h3>AWS Certified Developer – Associate</h3>
+
+              <p>
+                Preparing for the DVA-C02 certification exam with focused study
+                in application development, deployment, security, monitoring,
+                and AWS cloud services.
+              </p>
+            </div>
+          </article>
+        </section>
       </section>
     </main>
   );

@@ -616,7 +616,7 @@ main {
 
 }
 
-.project-category + .project-category {
+.project-category+.project-category {
 
   margin-top: 5rem;
 
@@ -626,7 +626,7 @@ main {
 
 }
 
-.project-category > .section-label {
+.project-category>.section-label {
 
   display: inline-block;
 
@@ -644,7 +644,7 @@ main {
 
 }
 
-.project-category > h3 {
+.project-category>h3 {
 
   max-width: 760px;
 
@@ -1032,7 +1032,7 @@ main {
 
 }
 
-.about-skills > div {
+.about-skills>div {
 
   padding: 24px;
 
@@ -1068,106 +1068,154 @@ main {
 
    ========================================================= */
 
-.about-credentials {
-  margin-top: 88px;
+.education-section {
+  margin-top: 96px;
   padding-top: 64px;
   border-top: 1px solid #273244;
 }
 
-.about-credentials .section-heading-row {
+.education-heading,
+.certification-heading {
   margin-bottom: 28px;
 }
 
-.about-credentials .section-heading-row h2 {
+.education-heading .section-label,
+.certification-heading .section-label {
+  margin-bottom: 10px;
+}
+
+.education-heading h2,
+.certification-heading h2 {
   margin: 0;
+  color: #eef4ff;
+  font-size: 2.2rem;
 }
 
-.credential-grid {
+.education-card {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-}
-
-.credential-card {
+  grid-template-columns: minmax(360px, 0.9fr) minmax(0, 1.1fr);
   overflow: hidden;
-  min-width: 0;
   border: 1px solid #273244;
-  border-radius: 14px;
+  border-radius: 18px;
   background: #111a27;
 }
 
-.credential-card-featured {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
-  align-items: stretch;
-}
-
-.credential-image-wrap {
+.education-visual {
   display: flex;
   align-items: center;
-  padding: 24px;
+  justify-content: center;
+  min-height: 360px;
+  padding: 32px;
   border-right: 1px solid #273244;
   background: #0d1623;
 }
 
-.credential-image {
+.education-diploma {
   display: block;
   width: 100%;
+  max-width: 560px;
   height: auto;
   border: 1px solid #334155;
-  border-radius: 10px;
+  border-radius: 8px;
   background: #fff;
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
 }
 
-.credential-content {
+.education-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 32px;
+  padding: 48px;
 }
 
-.credential-type {
+.credential-eyebrow {
   margin: 0 0 10px;
   color: #65d6b4;
   font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 0.11em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.credential-content h3 {
-  margin: 0 0 14px;
+.education-content h3,
+.certification-content h3 {
+  margin: 0 0 18px;
   color: #eef4ff;
-  font-size: 1.45rem;
-  line-height: 1.25;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
-.credential-content p {
+.education-degree {
+  max-width: 560px;
+  margin: 0 0 10px;
+  color: #cbd5e1;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.education-focus {
+  margin: 0 0 24px;
+  color: #98a4b5;
+  font-size: 1rem;
+}
+
+.education-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.education-meta span {
+  padding: 7px 11px;
+  border: 1px solid #334155;
+  border-radius: 999px;
+  color: #aab5c4;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.education-content .text-link {
+  align-self: flex-start;
+}
+
+.certification-heading {
+  margin-top: 64px;
+}
+
+.certification-card {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  max-width: 850px;
+  overflow: hidden;
+  border: 1px solid #273244;
+  border-radius: 16px;
+  background: #111a27;
+}
+
+.certification-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 190px;
+  border-right: 1px solid #273244;
+  background: #0d1623;
+  color: #65d6b4;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.certification-content {
+  padding: 32px;
+}
+
+.certification-content p:last-child {
+  max-width: 620px;
+  margin: 0;
   color: #aab5c4;
   line-height: 1.7;
-}
-
-.credential-title {
-  margin: 0 0 10px;
-  color: #dce5f1 !important;
-  font-size: 1.08rem;
-  font-weight: 700;
-}
-
-.credential-detail {
-  margin: 0 0 22px;
-  color: #8f9bab !important;
-}
-
-.credential-content .text-link {
-  align-self: flex-start;
-  margin-top: auto;
-}
-
-.credential-subheading {
-  margin-top: 56px;
 }
 
 /* =========================================================
@@ -1177,73 +1225,74 @@ main {
    ========================================================= */
 
 @media (max-width: 900px) {
-
   .about-layout {
-
     grid-template-columns: 1fr;
-
     gap: 48px;
-
   }
 
   .about-photo-column {
-
     position: static;
-
     max-width: 420px;
-
   }
 
   .about-skills {
-
-    grid-template-columns: 1fr;
-
-  }
-
-  .credential-grid {
     grid-template-columns: 1fr;
   }
 
-  .credential-card-featured {
-    grid-column: auto;
+  .education-card {
     grid-template-columns: 1fr;
   }
 
-  .credential-image-wrap {
+  .education-visual {
+    min-height: 0;
     border-right: 0;
     border-bottom: 1px solid #273244;
   }
 
+  .education-content {
+    padding: 32px;
+  }
+
+  .certification-card {
+    grid-template-columns: 130px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 650px) {
-
   .about-page {
-
     padding-top: 64px;
-
   }
 
   .about-lead {
-
     font-size: 1.15rem;
-
   }
 
-  .about-credentials {
+  .education-section {
     margin-top: 64px;
     padding-top: 48px;
   }
 
-  .credential-image-wrap,
-  .credential-content {
-    padding: 20px;
+  .education-visual {
+    padding: 18px;
   }
 
-  .credential-subheading {
-    margin-top: 44px;
+  .education-content {
+    padding: 26px 22px;
   }
 
+  .certification-card {
+    grid-template-columns: 1fr;
+  }
+
+  .certification-mark {
+    min-height: 110px;
+    border-right: 0;
+    border-bottom: 1px solid #273244;
+  }
+
+  .certification-content {
+    padding: 24px 22px;
+  }
 }
 
 /* =========================================================
@@ -1870,7 +1919,7 @@ main {
 
 }
 
-.featured-project + .featured-project {
+.featured-project+.featured-project {
 
   padding-top: 120px;
 
@@ -2190,7 +2239,7 @@ main {
 
   }
 
-  .featured-project + .featured-project {
+  .featured-project+.featured-project {
 
     padding-top: 80px;
 
