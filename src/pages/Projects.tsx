@@ -42,10 +42,7 @@ function Projects() {
                 </p>
 
                 <div className="project-links">
-                  <Link
-                    to="/projects/sortview"
-                    className="project-detail-link"
-                  >
+                  <Link to="/projects/sortview" className="project-detail-link">
                     View Project →
                   </Link>
 
@@ -178,9 +175,7 @@ function Projects() {
                   design.
                 </p>
 
-                <p className="tech">
-                  React · TypeScript · Supabase · Vite
-                </p>
+                <p className="tech">React · TypeScript · Supabase · Vite</p>
 
                 <div className="project-links">
                   <Link
@@ -437,10 +432,7 @@ function Projects() {
                 </p>
 
                 <div className="project-links">
-                  <Link
-                    to="/projects/homelab"
-                    className="project-detail-link"
-                  >
+                  <Link to="/projects/homelab" className="project-detail-link">
                     View Project →
                   </Link>
 
@@ -455,7 +447,6 @@ function Projects() {
               </div>
             </article>
 
-
             <article className="project-card">
               <img
                 src="/images/telemetry_dashboard_playback.PNG"
@@ -467,14 +458,15 @@ function Projects() {
                 <h3>Vehicle Telemetry Platform</h3>
 
                 <p>
-                  A hardware-integrated telemetry platform that connects to real vehicles
-                  over OBD-II, streams and records live operating data, evaluates
-                  configurable alarms, and replays captured road tests through the same
-                  runtime pipeline.
+                  A hardware-integrated telemetry platform that connects to real
+                  vehicles over OBD-II, streams and records live operating data,
+                  evaluates configurable alarms, and replays captured road tests
+                  through the same runtime pipeline.
                 </p>
 
                 <p className="tech">
-                  Python · FastAPI · WebSockets · OBD-II · Chart.js
+                  Python · FastAPI · WebSockets · OBD-II · React · TypeScript ·
+                  Chart.js
                 </p>
 
                 <div className="project-links">
@@ -486,6 +478,14 @@ function Projects() {
                   </Link>
 
                   <a
+                    href="https://vehicle-telemetry-platform.vercel.app"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a
                     href="https://github.com/richardrhanly-us/vehicle-telemetry-platform"
                     target="_blank"
                     rel="noreferrer"
@@ -495,7 +495,6 @@ function Projects() {
                 </div>
               </div>
             </article>
-
 
             <article className="project-card">
               <img
@@ -513,9 +512,7 @@ function Projects() {
                   detection, and command acknowledgments.
                 </p>
 
-                <p className="tech">
-                  C++17 · CMake · UDP · JSON · CTest
-                </p>
+                <p className="tech">C++17 · CMake · UDP · JSON · CTest</p>
 
                 <div className="project-links">
                   <Link

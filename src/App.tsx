@@ -16,6 +16,7 @@ import About from "./pages/About";
 import RotationLab from "./pages/projects/RotationLab";
 import WaterUtilityGIS from "./pages/projects/WaterUtilityGIS";
 import CloudReliabilityLab from "./pages/projects/CloudReliabilityLab";
+import VehicleTelemetry from "./pages/projects/VehicleTelemetry";
 
 function App() {
   return (
@@ -51,6 +52,10 @@ function App() {
         <Route
           path="/projects/cloud-reliability-lab"
           element={<CloudReliabilityLab />}
+        />
+        <Route
+          path="/projects/vehicle-telemetry"
+          element={<VehicleTelemetry />}
         />
       </Routes>
     </>
