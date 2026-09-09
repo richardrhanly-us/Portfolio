@@ -455,6 +455,48 @@ function Projects() {
               </div>
             </article>
 
+
+            <article className="project-card">
+              <img
+                src="/images/telemetry_dashboard_playback.PNG"
+                alt="Vehicle Telemetry Platform replaying recorded OBD-II vehicle data"
+                className="project-image"
+              />
+
+              <div className="project-content">
+                <h3>Vehicle Telemetry Platform</h3>
+
+                <p>
+                  A hardware-integrated telemetry platform that connects to real vehicles
+                  over OBD-II, streams and records live operating data, evaluates
+                  configurable alarms, and replays captured road tests through the same
+                  runtime pipeline.
+                </p>
+
+                <p className="tech">
+                  Python · FastAPI · WebSockets · OBD-II · Chart.js
+                </p>
+
+                <div className="project-links">
+                  <Link
+                    to="/projects/vehicle-telemetry"
+                    className="project-detail-link"
+                  >
+                    View Project →
+                  </Link>
+
+                  <a
+                    href="https://github.com/richardrhanly-us/vehicle-telemetry-platform"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+
             <article className="project-card">
               <img
                 src="/images/aircraft-mission-simulator.png"
