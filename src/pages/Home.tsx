@@ -122,26 +122,26 @@ function Home() {
 
           <article className="project-card">
             <img
-              src="/images/GIS-image.png"
-              alt="Water Utility GIS Operations Dashboard"
+              src="/images/telemetry_dashboard_playback.PNG"
+              alt="Vehicle Telemetry Platform replaying recorded OBD-II vehicle data"
               className="project-image"
             />
 
             <div className="project-content">
-              <h3>Water Utility GIS Dashboard</h3>
+              <h3>Vehicle Telemetry Platform</h3>
 
               <p>
-                An interactive GIS application for visualizing, filtering,
-                inspecting, and analyzing simulated water utility
-                infrastructure.
+                A hardware-integrated telemetry platform that connects to real
+                vehicles over OBD-II, streams and records live operating data,
+                evaluates configurable alarms, and replays captured road tests.
               </p>
 
               <p className="tech">
-                React · TypeScript · ArcGIS · Vitest · GitHub Actions
+                Python · FastAPI · WebSockets · OBD-II · React · TypeScript
               </p>
 
               <div className="project-links">
-                <Link to="/projects/water-utility-gis">View Project</Link>
+                <Link to="/projects/vehicle-telemetry">View Project</Link>
               </div>
             </div>
           </article>
