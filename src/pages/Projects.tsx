@@ -414,41 +414,6 @@ function Projects() {
 
             <article className="project-card">
               <img
-                src="/images/rack-front-view.jpeg"
-                alt="Homelab network rack and infrastructure"
-                className="project-image"
-              />
-
-              <div className="project-content">
-                <h3>Homelab Network Infrastructure</h3>
-
-                <p>
-                  A working homelab built with UniFi, Ubuntu Server, Docker,
-                  Pi-hole, Unbound, Portainer, and Uptime Kuma.
-                </p>
-
-                <p className="tech">
-                  Linux · Docker · UniFi · Pi-hole · Networking
-                </p>
-
-                <div className="project-links">
-                  <Link to="/projects/homelab" className="project-detail-link">
-                    View Project →
-                  </Link>
-
-                  <a
-                    href="https://github.com/richardrhanly-us/homelab-network-infrastructure"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article className="project-card">
-              <img
                 src="/images/telemetry_dashboard_playback.PNG"
                 alt="Vehicle Telemetry Platform replaying recorded OBD-II vehicle data"
                 className="project-image"
@@ -495,6 +460,44 @@ function Projects() {
                 </div>
               </div>
             </article>
+
+
+            <article className="project-card">
+              <img
+                src="/images/rack-front-view.jpeg"
+                alt="Homelab network rack and infrastructure"
+                className="project-image"
+              />
+
+              <div className="project-content">
+                <h3>Homelab Network Infrastructure</h3>
+
+                <p>
+                  A working homelab built with UniFi, Ubuntu Server, Docker,
+                  Pi-hole, Unbound, Portainer, and Uptime Kuma.
+                </p>
+
+                <p className="tech">
+                  Linux · Docker · UniFi · Pi-hole · Networking
+                </p>
+
+                <div className="project-links">
+                  <Link to="/projects/homelab" className="project-detail-link">
+                    View Project →
+                  </Link>
+
+                  <a
+                    href="https://github.com/richardrhanly-us/homelab-network-infrastructure"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+
+
 
             <article className="project-card">
               <img
