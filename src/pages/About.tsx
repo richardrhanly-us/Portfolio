@@ -117,7 +117,7 @@ function About() {
               </div>
 
               <a
-                href="/documents/acc-diploma.pdf"
+                href="/public/images/acc-diploma.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="text-link"
