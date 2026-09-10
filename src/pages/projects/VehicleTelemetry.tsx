@@ -9,21 +9,21 @@ function VehicleTelemetry() {
         <div className="case-study-intro">
           <div className="case-study-copy">
             <h3>
-              Real-time telemetry acquisition and replay from physical vehicle
+              Real-time vehicle telemetry, recording, and replay from physical
               hardware
             </h3>
 
             <p>
-              The Vehicle Telemetry Platform connects directly to your vehicle
-              through an OBD-II adapter and turns raw diagnostic data into a live
+              The Vehicle Telemetry Platform connects directly to a vehicle
+              through an OBD-II adapter and turns diagnostic data into a live
               monitoring and recording system.
             </p>
 
             <p>
-              The application connects to the vehicle, checks which data the car can provide,
-              and displays that information live in the browser. It can also record a drive,
-              flag conditions such as high engine load or temperature, and replay a recorded
-              trip later for review.
+              The application checks which data the vehicle can provide and
+              displays that information live in the browser. It can record an
+              entire drive, flag conditions such as high engine load or
+              temperature, and replay a previous trip later for review.
             </p>
 
             <div className="case-study-links">
@@ -56,7 +56,7 @@ function VehicleTelemetry() {
               />
 
               <figcaption>
-                Snapshot of the dashboard using the playback feature.
+                Dashboard view while replaying a recorded vehicle trip.
               </figcaption>
             </figure>
           </div>
@@ -67,11 +67,11 @@ function VehicleTelemetry() {
             <h3>The Problem</h3>
 
             <p>
-              Collecting useful telemetry from a real vehicle involves more than just
-              displaying diagnostic values. Before anything can appear on the dashboard,
-              the software has to figure out what the vehicle supports, establish a stable
-              connection, and handle situations where data is delayed, missing, or
-              unavailable.
+              Collecting useful telemetry from a real vehicle involves more than
+              simply reading and displaying diagnostic values. The software has
+              to establish a reliable connection, determine which readings the
+              vehicle supports, and deal with data that may be delayed, missing,
+              or unavailable.
             </p>
           </article>
 
@@ -79,10 +79,11 @@ function VehicleTelemetry() {
             <h3>The Solution</h3>
 
             <p>
-              The vehicle-telemetry system was built and designed to handle those problems without letting a bad response or
-              hardware issue bring down the application. It can detect the vehicle, check
-              which commands are available, manage the serial connection, and keep the
-              application state consistent as conditions change.
+              I built the system so those connection and data issues can be
+              handled without taking down the rest of the application. It can
+              identify the vehicle, check which commands are available, manage
+              the serial connection, and keep the live dashboard and recording
+              system working even when individual readings fail.
             </p>
           </article>
 
@@ -91,10 +92,9 @@ function VehicleTelemetry() {
 
             <p>
               The platform includes vehicle scanning, supported-command
-              discovery, live telemetry acquisition, WebSocket updates, trip
-              recording, JSONL persistence, acquisition-health monitoring,
-              configurable alarms, historical trip analysis, playback controls,
-              and automated tests.
+              detection, live telemetry, WebSocket updates, trip recording,
+              JSONL storage, connection-health monitoring, configurable alarms,
+              historical trip review, playback controls, and automated tests.
             </p>
           </article>
         </div>
@@ -119,10 +119,9 @@ function VehicleTelemetry() {
             <h3>Vehicle Connection and Telemetry Demo</h3>
 
             <p>
-              A hardware demonstration showing the OBDLink EX connected to
-              the vehicle, the application scanning for the diagnostic
-              interface, identifying the vehicle, and beginning telemetry
-              acquisition.
+              This demonstration shows the OBDLink EX connected to the vehicle,
+              the application scanning for the diagnostic interface, identifying
+              the vehicle, and beginning live telemetry collection.
             </p>
           </div>
 
