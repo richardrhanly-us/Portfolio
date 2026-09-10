@@ -16,8 +16,8 @@ function Home() {
         <div className="home-intro-grid">
           <div className="home-intro-copy">
             <p className="home-intro-statement">
-              I build software around real systems, operational workflows,
-              infrastructure, and physical hardware.
+              I build software that connects to real equipment, tracks operational data,
+              and turns messy workflows into tools people can actually use.
             </p>
 
             <div className="home-actions">

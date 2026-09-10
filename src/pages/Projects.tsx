@@ -114,53 +114,6 @@ function Projects() {
 
             <article className="project-card">
               <img
-                src="/images/GIS-image.png"
-                alt="Water Utility GIS Operations Dashboard"
-                className="project-image"
-              />
-
-              <div className="project-content">
-                <h3>Water Utility GIS Operations Dashboard</h3>
-
-                <p>
-                  An interactive GIS application for visualizing, filtering,
-                  inspecting, and analyzing simulated water utility
-                  infrastructure.
-                </p>
-
-                <p className="tech">
-                  React · TypeScript · ArcGIS · Vitest · GitHub Actions
-                </p>
-
-                <div className="project-links">
-                  <Link
-                    to="/projects/water-utility-gis"
-                    className="project-detail-link"
-                  >
-                    View Project →
-                  </Link>
-
-                  <a
-                    href="https://water-utility-gis.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Live Demo
-                  </a>
-
-                  <a
-                    href="https://github.com/richardrhanly-us/water-utility-gis"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article className="project-card">
-              <img
                 src="/images/flowboard.png"
                 alt="FlowBoard task management dashboard"
                 className="project-image"
@@ -461,6 +414,52 @@ function Projects() {
               </div>
             </article>
 
+            <article className="project-card">
+              <img
+                src="/images/GIS-image.png"
+                alt="Water Utility GIS Operations Dashboard"
+                className="project-image"
+              />
+
+              <div className="project-content">
+                <h3>Water Utility GIS Operations Dashboard</h3>
+
+                <p>
+                  An interactive GIS application for visualizing, filtering,
+                  inspecting, and analyzing simulated water utility
+                  infrastructure.
+                </p>
+
+                <p className="tech">
+                  React · TypeScript · ArcGIS · Vitest · GitHub Actions
+                </p>
+
+                <div className="project-links">
+                  <Link
+                    to="/projects/water-utility-gis"
+                    className="project-detail-link"
+                  >
+                    View Project →
+                  </Link>
+
+                  <a
+                    href="https://water-utility-gis.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a
+                    href="https://github.com/richardrhanly-us/water-utility-gis"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
 
             <article className="project-card">
               <img
