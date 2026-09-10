@@ -24,6 +24,96 @@ main {
 
 }
 
+
+/* =========================================================
+   GLOBAL TYPOGRAPHY
+   ========================================================= */
+
+#root {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+  color: #eef4ff;
+}
+
+/* Major display typography */
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+/* Page and section headings */
+.section h2,
+.about-copy h2,
+.education-heading h2,
+.certification-heading h2,
+.case-study h2,
+.case-study-copy h3,
+.case-study-details h3,
+.architecture h3,
+.project-card h3,
+.project-category > h3,
+.project-walkthrough-header h3,
+.education-content h3,
+.certification-content h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+/* Body and interface text */
+p,
+a,
+button,
+span,
+small,
+.navbar,
+.primary-button,
+.secondary-button,
+.text-link {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+/* Small labels */
+.section-label,
+.eyebrow,
+.credential-eyebrow,
+.home-role,
+.home-location,
+.home-project-type {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-weight: 700;
+}
+
+/* Technical information */
+.tech,
+.home-project-tech,
+.home-project-index {
+  font-family:
+    Consolas,
+    "Courier New",
+    monospace;
+}
+
+
 /* =========================================================
 
    SITE HEADER / NAVIGATION
