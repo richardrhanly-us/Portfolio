@@ -5,42 +5,32 @@ function Home() {
   return (
     <main>
       <section className="home-hero">
-        <div className="hero-topline">
-          <p>Software Developer</p>
-          <p>Portfolio / 2026</p>
-        </div>
-        <div className="hero-layout">
-          <div className="hero-name">
-            <h1>Richard Hanly</h1>
+        <div className="home-hero-grid">
+          <div className="home-identity">
+            <p className="home-kicker">Richard Hanly / Software Developer</p>
 
-            <div className="hero-meta hero-meta-under-name">
-              <span>Central Texas</span>
-              <span>B.A.S. Software Development</span>
-              <span>Austin Community College</span>
-            </div>
-          </div>
+            <h1>
+              Software for systems,
+              <br />
+              operations, and hardware.
+            </h1>
 
-          <div className="hero-introduction">
-            <p className="hero-statement">
-              I build software for
-              <span> real-world systems.</span>
+            <p className="home-summary">
+              I build applications and technical systems around real-world
+              workflows, operational data, infrastructure, automation, and
+              physical hardware.
             </p>
 
-            <p className="hero-description">
-              Full-stack applications, data systems, automation, analytics, and
-              infrastructure built around practical problems.
-            </p>
-
-            <div className="hero-primary-links">
+            <div className="home-actions">
               <Link to="/projects" className="primary-button">
-                View Projects
+                Explore Projects
               </Link>
 
               <a
                 href="https://github.com/richardrhanly-us"
                 target="_blank"
                 rel="noreferrer"
-                className="secondary-button"
+                className="home-text-link"
               >
                 GitHub ↗
               </a>
@@ -49,36 +39,58 @@ function Home() {
                 href="https://www.linkedin.com/in/richardhanly/"
                 target="_blank"
                 rel="noreferrer"
-                className="secondary-button"
+                className="home-text-link"
               >
                 LinkedIn ↗
               </a>
             </div>
           </div>
+
+          <aside className="home-profile">
+            <div className="home-profile-row">
+              <span>Location</span>
+              <strong>Central Texas</strong>
+            </div>
+
+            <div className="home-profile-row">
+              <span>Education</span>
+              <strong>B.A.S. Software Development</strong>
+            </div>
+
+            <div className="home-profile-row">
+              <span>College</span>
+              <strong>Austin Community College</strong>
+            </div>
+
+            <div className="home-profile-row">
+              <span>Focus</span>
+              <strong>
+                Applications · Systems · Infrastructure · Hardware Integration
+              </strong>
+            </div>
+          </aside>
         </div>
       </section>
 
-      <section className="section home-featured">
-        <div className="section-heading-row">
-          <div>
-            <p className="section-label">Featured Work</p>
-            <h2>Selected Projects</h2>
-          </div>
+      <section className="home-work">
+        <div className="home-work-heading">
+          <p className="home-kicker">Current Systems</p>
 
-          <Link to="/projects" className="text-link">
-            View All Projects →
-          </Link>
+          <div className="home-work-title-row">
+            <h2>Selected Engineering Work</h2>
+
+            <Link to="/projects" className="home-text-link">
+              All Projects ↗
+            </Link>
+          </div>
         </div>
 
-        <div className="project-grid">
-          <article className="project-card">
-            <img
-              src="/images/sortview-dashboard.png"
-              alt="SortView analytics dashboard"
-              className="project-image"
-            />
+        <div className="home-project-list">
+          <article className="home-project">
+            <div className="home-project-index">01</div>
 
-            <div className="project-content">
+            <div className="home-project-copy">
+              <p className="home-project-type">Operational Analytics</p>
               <h3>SortView</h3>
 
               <p>
@@ -86,22 +98,32 @@ function Home() {
                 automated materials handler activity for library operations.
               </p>
 
-              <p className="tech">Python · FastAPI · PostgreSQL · Streamlit</p>
+              <p className="home-project-tech">
+                Python / FastAPI / PostgreSQL / Streamlit
+              </p>
 
-              <div className="project-links">
-                <Link to="/projects/sortview">View Project</Link>
-              </div>
+              <Link to="/projects/sortview" className="home-project-link">
+                View system ↗
+              </Link>
             </div>
+
+            <Link
+              to="/projects/sortview"
+              className="home-project-media"
+              aria-label="View SortView project"
+            >
+              <img
+                src="/images/sortview-dashboard.png"
+                alt="SortView analytics dashboard"
+              />
+            </Link>
           </article>
 
-          <article className="project-card">
-            <img
-              src="/images/Architecture-diagram.png"
-              alt="Cloud Reliability Lab AWS architecture diagram"
-              className="project-image"
-            />
+          <article className="home-project">
+            <div className="home-project-index">02</div>
 
-            <div className="project-content">
+            <div className="home-project-copy">
+              <p className="home-project-type">Infrastructure & Reliability</p>
               <h3>AWS Cloud Reliability Lab</h3>
 
               <p>
@@ -110,40 +132,65 @@ function Home() {
                 and service recovery.
               </p>
 
-              <p className="tech">
-                AWS · Terraform · Linux · nginx · systemd · CloudWatch
+              <p className="home-project-tech">
+                AWS / Terraform / Linux / nginx / systemd / CloudWatch
               </p>
 
-              <div className="project-links">
-                <Link to="/projects/cloud-reliability-lab">View Project</Link>
-              </div>
+              <Link
+                to="/projects/cloud-reliability-lab"
+                className="home-project-link"
+              >
+                View system ↗
+              </Link>
             </div>
+
+            <Link
+              to="/projects/cloud-reliability-lab"
+              className="home-project-media"
+              aria-label="View AWS Cloud Reliability Lab project"
+            >
+              <img
+                src="/images/Architecture-diagram.png"
+                alt="Cloud Reliability Lab AWS architecture diagram"
+              />
+            </Link>
           </article>
 
-          <article className="project-card">
-            <img
-              src="/images/telemetry_dashboard_playback.PNG"
-              alt="Vehicle Telemetry Platform replaying recorded OBD-II vehicle data"
-              className="project-image"
-            />
+          <article className="home-project">
+            <div className="home-project-index">03</div>
 
-            <div className="project-content">
+            <div className="home-project-copy">
+              <p className="home-project-type">Hardware Telemetry</p>
               <h3>Vehicle Telemetry Platform</h3>
 
               <p>
                 A hardware-integrated telemetry platform that connects to real
-                vehicles over OBD-II, streams and records live operating data,
-                evaluates configurable alarms, and replays captured road tests.
+                vehicles over OBD-II, records operating data, evaluates alarms,
+                and replays captured road tests through the monitoring system.
               </p>
 
-              <p className="tech">
-                Python · FastAPI · WebSockets · OBD-II · React · TypeScript
+              <p className="home-project-tech">
+                Python / FastAPI / WebSockets / OBD-II / React / TypeScript
               </p>
 
-              <div className="project-links">
-                <Link to="/projects/vehicle-telemetry">View Project</Link>
-              </div>
+              <Link
+                to="/projects/vehicle-telemetry"
+                className="home-project-link"
+              >
+                View system ↗
+              </Link>
             </div>
+
+            <Link
+              to="/projects/vehicle-telemetry"
+              className="home-project-media"
+              aria-label="View Vehicle Telemetry Platform project"
+            >
+              <img
+                src="/images/telemetry_dashboard_playback.PNG"
+                alt="Vehicle Telemetry Platform replaying recorded OBD-II vehicle data"
+              />
+            </Link>
           </article>
         </div>
       </section>
