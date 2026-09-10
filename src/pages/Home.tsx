@@ -5,29 +5,29 @@ function Home() {
   return (
     <main>
       <section className="home-hero">
-        <div className="home-hero-grid">
-          <div className="home-identity">
-            <p className="home-kicker">Richard Hanly / Software Developer</p>
+        <div className="home-hero-header">
+          <p className="home-role">Software Developer</p>
+          <p className="home-location">Central Texas</p>
+        </div>
 
-            <h1>
-              Software for systems,
-              <br />
-              operations, and hardware.
-            </h1>
+        <div className="home-name-block">
+          <h1>Richard Hanly</h1>
+        </div>
 
-            <p className="home-summary">
-              I build applications and technical systems around real-world
-              workflows, operational data, infrastructure, automation, and
-              physical hardware.
+        <div className="home-intro-grid">
+          <div className="home-intro-copy">
+            <p className="home-intro-statement">
+              I build software around real systems, operational workflows,
+              infrastructure, and physical hardware.
             </p>
 
             <div className="home-actions">
               <Link to="/projects" className="primary-button">
-                Explore Projects
+                View Projects
               </Link>
 
               <a
-                href="https://github.com/richardrhanly-us"
+                href="https://github.com/richardhanly-us"
                 target="_blank"
                 rel="noreferrer"
                 className="home-text-link"
@@ -46,29 +46,11 @@ function Home() {
             </div>
           </div>
 
-          <aside className="home-profile">
-            <div className="home-profile-row">
-              <span>Location</span>
-              <strong>Central Texas</strong>
-            </div>
-
-            <div className="home-profile-row">
-              <span>Education</span>
-              <strong>B.A.S. Software Development</strong>
-            </div>
-
-            <div className="home-profile-row">
-              <span>College</span>
-              <strong>Austin Community College</strong>
-            </div>
-
-            <div className="home-profile-row">
-              <span>Focus</span>
-              <strong>
-                Applications · Systems · Infrastructure · Hardware Integration
-              </strong>
-            </div>
-          </aside>
+          <div className="home-education">
+            <span>Education</span>
+            <p>B.A.S. Software Development</p>
+            <small>Austin Community College</small>
+          </div>
         </div>
       </section>
 
