@@ -969,13 +969,9 @@ small,
 }
 
 .architecture-flow {
-
   display: grid;
-
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
-
 }
 
 .architecture-flow span {
@@ -1018,6 +1014,47 @@ small,
 
   transform: translateY(-50%);
 
+}
+
+/* =========================================================
+   PROJECT WALKTHROUGH
+   ========================================================= */
+
+.project-walkthrough {
+  margin-top: 64px;
+}
+
+.project-walkthrough-header {
+  max-width: 760px;
+  margin-bottom: 24px;
+}
+
+.project-walkthrough-header .section-label {
+  margin-bottom: 10px;
+}
+
+.project-walkthrough-header h3 {
+  margin: 0 0 12px;
+  font-size: 1.6rem;
+}
+
+.project-walkthrough-header p {
+  margin: 0;
+  color: #98a4b5;
+  line-height: 1.7;
+}
+
+.project-walkthrough-video {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin-top: 24px;
+  border: 1px solid #273244;
+  border-radius: 14px;
+  background: #000;
+  object-fit: contain;
 }
 
 /* =========================================================
