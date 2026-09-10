@@ -7,7 +7,6 @@ function Home() {
       <section className="home-hero">
         <div className="home-hero-header">
           <p className="home-role">Software Developer</p>
-          <p className="home-location">Central Texas</p>
         </div>
 
         <div className="home-name-block">
@@ -45,11 +44,10 @@ function Home() {
               </a>
             </div>
           </div>
-
           <div className="home-education">
-            <span>Education</span>
+            <span>Background</span>
             <p>B.A.S. Software Development</p>
-            <small>Austin Community College</small>
+            <small>Austin Community College · Central Texas</small>
           </div>
         </div>
       </section>
