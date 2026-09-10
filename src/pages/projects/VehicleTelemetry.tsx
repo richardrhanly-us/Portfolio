@@ -14,17 +14,16 @@ function VehicleTelemetry() {
             </h3>
 
             <p>
-              The Vehicle Telemetry Platform connects directly to a real vehicle
-              through an OBD-II adapter and turns diagnostic data into a live
+              The Vehicle Telemetry Platform connects directly to your vehicle
+              through an OBD-II adapter and turns raw diagnostic data into a live
               monitoring and recording system.
             </p>
 
             <p>
-              The application discovers supported vehicle parameters, streams
-              operating data into a browser dashboard, records complete
-              road-test sessions, evaluates configurable alarm conditions, and
-              replays captured telemetry through the same runtime pipeline used
-              during live acquisition.
+              The application connects to the vehicle, checks which data the car can provide,
+              and displays that information live in the browser. It can also record a drive,
+              flag conditions such as high engine load or temperature, and replay a recorded
+              trip later for review.
             </p>
 
             <div className="case-study-links">
@@ -57,8 +56,7 @@ function VehicleTelemetry() {
               />
 
               <figcaption>
-                Recorded real-world vehicle telemetry replayed through the live
-                monitoring dashboard.
+                Snapshot of the dashboard using the playback feature.
               </figcaption>
             </figure>
           </div>
@@ -69,11 +67,11 @@ function VehicleTelemetry() {
             <h3>The Problem</h3>
 
             <p>
-              Collecting useful telemetry from real vehicle hardware requires
-              more than displaying diagnostic values. The software must handle
-              vehicle discovery, supported-command detection, unreliable serial
-              communication, missing responses, and changing runtime state
-              without allowing hardware failures to destabilize the application.
+              Collecting useful telemetry from a real vehicle involves more than just
+              displaying diagnostic values. Before anything can appear on the dashboard,
+              the software has to figure out what the vehicle supports, establish a stable
+              connection, and handle situations where data is delayed, missing, or
+              unavailable.
             </p>
           </article>
 
@@ -81,11 +79,10 @@ function VehicleTelemetry() {
             <h3>The Solution</h3>
 
             <p>
-              I built a telemetry pipeline that separates hardware acquisition
-              from application state and presentation. OBD-II responses are
-              normalized into typed telemetry samples, streamed to a browser
-              dashboard, evaluated by an alarm engine, and recorded for later
-              analysis and replay.
+              The vehicle-telemetry system was built and designed to handle those problems without letting a bad response or
+              hardware issue bring down the application. It can detect the vehicle, check
+              which commands are available, manage the serial connection, and keep the
+              application state consistent as conditions change.
             </p>
           </article>
 
@@ -122,7 +119,7 @@ function VehicleTelemetry() {
             <h3>Vehicle Connection and Telemetry Demo</h3>
 
             <p>
-              A real hardware demonstration showing the OBDLink EX connected to
+              A hardware demonstration showing the OBDLink EX connected to
               the vehicle, the application scanning for the diagnostic
               interface, identifying the vehicle, and beginning telemetry
               acquisition.

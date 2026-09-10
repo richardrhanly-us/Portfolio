@@ -14,11 +14,11 @@ function CloudReliabilityLab() {
             </h3>
 
             <p>
-              Cloud Reliability Lab is an infrastructure and reliability
+              This Cloud Reliability Lab is an infrastructure and reliability
               engineering project that I built around the idea of operating a
               small web service in AWS. The goal was not simply to deploy an
-              application, but to practice the systems work required to keep a
-              service observable, recoverable, and reproducible. The next phase
+              application, but to be able to practice the systems work required to keep a
+              service observable, recoverable, and reproducible n preperation for working in the industry. The next phase
               of this project is to host the SortView project on AWS.
             </p>
 

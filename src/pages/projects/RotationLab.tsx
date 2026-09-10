@@ -8,7 +8,7 @@ function RotationLab() {
 
         <div className="case-study-intro">
           <div className="case-study-copy">
-            <h3>Turning NBA lineup data into rotation decision support</h3>
+            <h3>Processing lineup data to assist coaches and managment with decesion making</h3>
 
             <p>
               RotationLab is a full-stack basketball analytics application that
@@ -53,8 +53,7 @@ function RotationLab() {
               />
 
               <figcaption>
-                RotationLab provides interactive lineup comparison, replacement
-                analysis, and player-combination evaluations.
+                RotationLab dashboard
               </figcaption>
             </figure>
           </div>
@@ -65,9 +64,9 @@ function RotationLab() {
             <h3>The Problem</h3>
 
             <p>
-              NBA lineup data contains useful information about how groups of
+              NBA lineup data can contain useful information about how groups of
               players perform together, but raw lineup tables are difficult
-              to work with. It was tedious to compare combinations, evaluate alternatives, and understand how
+              to work with as they contain vast amounts of unprocessed information. It was tedious to compare combinations, evaluate alternatives, and understand how
               replacing one player might affect a rotation.
             </p>
           </article>
