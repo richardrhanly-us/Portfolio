@@ -7,17 +7,22 @@ function Home() {
       <section className="home-hero">
         <div className="home-hero-header">
           <p className="home-role">Software Developer</p>
+          <p className="home-edition">Portfolio / 2026</p>
         </div>
 
-        <div className="home-name-block">
-          <h1>Richard Hanly</h1>
-        </div>
+        <div className="home-hero-main">
+          <div className="home-hero-name">
+            <h1>Richard Hanly</h1>
+          </div>
 
-        <div className="home-intro-grid">
-          <div className="home-intro-copy">
-            <p className="home-intro-statement">
-              I build software that connects to real equipment, tracks operational data,
-              and turns messy workflows into tools people can actually use.
+          <div className="home-hero-intro">
+            <p className="home-hero-statement">
+              Software for real systems, hardware, operations, and data.
+            </p>
+
+            <p className="home-hero-description">
+              I build practical tools that connect software to equipment,
+              workflows, infrastructure, and operational data.
             </p>
 
             <div className="home-actions">
@@ -44,10 +49,22 @@ function Home() {
               </a>
             </div>
           </div>
-          <div className="home-education">
-            <span>Background</span>
+        </div>
+
+        <div className="home-hero-meta">
+          <div>
+            <span>Location</span>
+            <p>Central Texas</p>
+          </div>
+
+          <div>
+            <span>Education</span>
             <p>B.A.S. Software Development</p>
-            <small>Austin Community College · Central Texas</small>
+          </div>
+
+          <div>
+            <span>School</span>
+            <p>Austin Community College</p>
           </div>
         </div>
       </section>
