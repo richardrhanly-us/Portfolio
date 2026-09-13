@@ -6,24 +6,12 @@ function Home() {
     <main>
       <section className="home-hero">
         <div className="home-hero-header">
-          <p className="home-role">Software Developer</p>
           <p className="home-edition">Portfolio / 2026</p>
         </div>
 
         <div className="home-hero-main">
-          <div className="home-hero-name">
+          <div className="home-hero-left">
             <h1>Richard Hanly</h1>
-          </div>
-
-          <div className="home-hero-intro">
-            <p className="home-hero-statement">
-              Software for real systems, hardware, operations, and data.
-            </p>
-
-            <p className="home-hero-description">
-              I build practical tools that connect software to equipment,
-              workflows, infrastructure, and operational data.
-            </p>
 
             <div className="home-actions">
               <Link to="/projects" className="primary-button">
@@ -49,9 +37,25 @@ function Home() {
               </a>
             </div>
           </div>
+
+          <div className="home-hero-right">
+            <p className="home-hero-statement">
+              Software for real systems, hardware, operations, and data.
+            </p>
+
+            <p className="home-hero-description">
+              I build practical tools that connect software to equipment,
+              workflows, infrastructure, and operational data.
+            </p>
+          </div>
         </div>
 
         <div className="home-hero-meta">
+          <div>
+            <span>Role</span>
+            <p>Software Developer</p>
+          </div>
+
           <div>
             <span>Location</span>
             <p>Central Texas</p>
@@ -71,7 +75,6 @@ function Home() {
 
       <section className="home-work">
         <div className="home-work-heading">
-
           <div className="home-work-title-row">
             <h2>Selected Projects</h2>
 
