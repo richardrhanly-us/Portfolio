@@ -1558,10 +1558,13 @@ small,
 
    ========================================================= */
 .home-work {
-  padding: 28px 0 90px;
+  margin-top: 24px;
+  padding: 42px 0 90px;
+  border-top: 1px solid #405169;
 }
+
 .home-work-heading {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .home-work-title-row {
@@ -1825,8 +1828,9 @@ small,
   }
 
   .home-project-list {
-    margin-top: 40px;
-  }
+  margin-top: 30px;
+  border-top: 0;
+}
 
   .home-project {
     grid-template-columns: 1fr;
