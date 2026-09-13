@@ -61,35 +61,21 @@ h3 {
 /* Page and section headings */
 
 .section h2,
-
 .about-copy h2,
-
 .education-heading h2,
-
 .certification-heading h2,
-
 .case-study h2,
-
 .case-study-copy h3,
-
 .case-study-details h3,
-
 .architecture h3,
-
 .project-card h3,
-
 .project-category > h3,
-
 .project-walkthrough-header h3,
-
 .education-content h3,
-
 .certification-content h3 {
-
-  font-family: Georgia, "Times New Roman", serif;
-
-  font-weight: 400;
-
+  font-family: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  font-weight: 500;
+  letter-spacing: -0.04em;
 }
 
 /* Body and interface text */
@@ -243,11 +229,9 @@ small,
 }
 
 .section h2 {
-
-  margin: 0 0 32px;
-
-  font-size: 2.4rem;
-
+  margin: 0 0 28px;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.05;
 }
 
 .eyebrow,
@@ -545,13 +529,12 @@ small,
 }
 
 .project-card h3 {
-
   margin: 0 0 14px;
-
-  font-size: 1.45rem;
-
-  line-height: 1.25;
-
+  font-family: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
 }
 
 .project-card p {
@@ -773,19 +756,14 @@ small,
 }
 
 .project-category > h3 {
-
   max-width: 760px;
-
   margin: 0 0 1.9rem;
-
   color: #eef4ff;
-
-  font-size: 1.55rem;
-
-  font-weight: 700;
-
-  line-height: 1.3;
-
+  font-family: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.035em;
 }
 
 .project-category .project-grid {
@@ -1157,9 +1135,12 @@ small,
 }
 
 .about-copy h2 {
-
   margin-bottom: 28px;
-
+  font-family: "IBM Plex Mono", Consolas, "Courier New", monospace;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
 }
 
 .about-lead {
