@@ -1445,7 +1445,7 @@ small,
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  margin-bottom: 44px;
+  margin-bottom: 28px;
 }
 
 .home-role,
@@ -1530,8 +1530,8 @@ small,
   grid-template-columns: auto auto auto;
   justify-content: start;
   gap: clamp(48px, 7vw, 110px);
-  margin-top: 40px;
-  padding-top: 20px;
+  margin-top: 24px;
+  padding-top: 16px;
   border-top: 1px solid #334155;
 }
 
@@ -1557,9 +1557,8 @@ small,
    HOME PROJECTS
 
    ========================================================= */
-
 .home-work {
-  padding: 48px 0 100px;
+  padding: 28px 0 90px;
 }
 .home-work-heading {
   margin-bottom: 24px;
@@ -1587,21 +1586,15 @@ small,
 
 .home-project-list {
   margin-top: 54px;
-
   border-top: 1px solid #405169;
 }
 
 .home-project {
   display: grid;
-
   grid-template-columns: 72px minmax(280px, 0.72fr) minmax(420px, 1.28fr);
-
   gap: 34px;
-
   align-items: center;
-
-  padding: 44px 0;
-
+  padding: 36px 0;
   border-bottom: 1px solid #273244;
 }
 
@@ -1786,11 +1779,11 @@ small,
     width: calc(100% - 36px);
   }
 
-.navbar {
-  width: min(1320px, calc(100% - 80px));
-}
+  .navbar {
+    width: min(1320px, calc(100% - 80px));
+  }
   .home-hero {
-    padding: 56px 0 32px;
+    padding: 44px 0 18px;
   }
 
   .home-hero-header {
@@ -1814,7 +1807,6 @@ small,
     gap: 22px;
     margin-top: 32px;
   }
-
 
   .home-actions {
     gap: 16px 22px;
