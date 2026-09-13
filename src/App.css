@@ -1951,11 +1951,11 @@ small,
 
   display: grid;
 
-  grid-template-columns: 72px minmax(280px, 0.72fr) minmax(420px, 1.28fr);
+ grid-template-columns: 48px minmax(280px, 0.72fr) minmax(420px, 1.28fr);
 
   gap: 34px;
 
-  align-items: center;
+  align-items: start;
 
   padding: 36px 0;
 
@@ -1980,27 +1980,18 @@ small,
   letter-spacing: 0.08em;
 
 }
-
 .home-project-copy {
-
   max-width: 500px;
-
+  padding-top: 2px;
 }
 
 .home-project-type {
-
   margin: 0 0 12px;
-
   color: #65d6b4;
-
   font-size: 0.8rem;
-
   font-weight: 800;
-
-  letter-spacing: 0.11em;
-
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-
 }
 
 .home-hero-name h1 {
@@ -2046,19 +2037,12 @@ small,
 }
 
 .home-project-link {
-
   display: inline-block;
-
   margin-top: 24px;
-
   color: #65d6b4;
-
-  font-size: 0.9rem;
-
+  font-size: 1rem;
   font-weight: 700;
-
   text-decoration: none;
-
 }
 
 .home-project-link:hover {
