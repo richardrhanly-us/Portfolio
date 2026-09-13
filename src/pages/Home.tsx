@@ -71,7 +71,6 @@ function Home() {
 
       <section className="home-work">
         <div className="home-work-heading">
-          <p className="home-kicker">Featured Work</p>
 
           <div className="home-work-title-row">
             <h2>Selected Projects</h2>
