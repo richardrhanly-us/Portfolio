@@ -2230,3 +2230,67 @@ small,
     margin-top: 12px;
   }
 }
+
+/* =========================================================
+   SORTVIEW CASE STUDY
+   ========================================================= */
+
+.sortview-section-description {
+  max-width: 800px;
+  margin: 0 0 28px;
+  color: #b8c2d1;
+  line-height: 1.75;
+}
+
+.sortview-architecture-flow {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.sortview-architecture-note {
+  max-width: 800px;
+  margin: 20px 0 0;
+  color: #98a4b5;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.sortview-engineering {
+  margin-top: 80px;
+  padding-top: 48px;
+  border-top: 1px solid #273244;
+}
+
+.sortview-engineering > h3,
+.sortview-development > h3 {
+  margin: 0 0 20px;
+  font-size: 1.6rem;
+}
+
+.sortview-engineering-grid {
+  margin-top: 32px;
+}
+
+.sortview-development {
+  max-width: 960px;
+  margin-top: 80px;
+  padding-top: 48px;
+  border-top: 1px solid #273244;
+}
+
+.sortview-development p:not(.section-label) {
+  margin: 0 0 20px;
+  color: #b8c2d1;
+  line-height: 1.75;
+}
+
+@media (max-width: 900px) {
+  .sortview-architecture-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .sortview-engineering,
+  .sortview-development {
+    margin-top: 64px;
+    padding-top: 36px;
+  }
+}
